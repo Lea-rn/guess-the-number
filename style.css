@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Codystar:wght@300;400&family=Manrope:wght@200..800&family=Monoton&family=Mozilla+Headline:wght@200..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Playwrite+NO:wght@100..400&family=Pliant:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Yuyu&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(10, 10, 10);
+  color: white;
+
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+}
+
+.header {
+  margin-top: 30px;
+}
+
+.btn-again,
+.btn-check {
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+}
+
+.btn-again {
+  margin-left: 10px;
+}
+
+.between {
+  margin-left: 1150px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header {
+  border-bottom: solid 5px rgb(226, 220, 220);
+  margin: 10px 30px;
+  position: relative;
+}
+
+.title {
+  font-size: 75px;
+  text-align: center;
+}
+
+.result-logo {
+  width: 3%;
+  text-align: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  position: absolute;
+  left: 700px;
+  top: 187px;
+}
+
+.input-container {
+  width: 20%;
+  text-align: center;
+  margin: 0px 900px 0px 100px;
+}
+
+.info-container {
+  width: 40%;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+input {
+  display: block;
+  width: 90%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid 2px white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: "Bitcount Prop Single", system-ui;
+  font-optical-sizing: auto;
+  margin-bottom: 20px;
+}
